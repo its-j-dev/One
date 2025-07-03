@@ -1,0 +1,15 @@
+
+{ "type": "module",
+  "name": "jules",
+  "version": "1.0.0",
+  "description": "A simple Tailwind CSS setup",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i src/input.css -o dist/output.css",
+    "watch": "tailwindcss -i src/input.css -o dist/output.css --watch"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.11",
+    "tailwindcss": "^4.1.11"
+  }
+}
